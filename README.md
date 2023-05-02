@@ -15,6 +15,7 @@ Please show your support by reacting with `watch` or ⭐
 # **I. Landing Page**
 
 The landing page features a simple animation forming the collage of the popular Midnight Racing Team cars, animated through the Javascript library AOS.
+![image](https://media.discordapp.net/attachments/1102885622865207336/1102885644314873906/image.png?width=1836&height=1194)
 
 # **II. Password System**
 
