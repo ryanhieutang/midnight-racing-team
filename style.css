@@ -1,0 +1,300 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter');
+
+html {
+    background-color: #ffffff;
+    scroll-behavior: smooth;
+}
+
+html {
+    -moz-tab-size: 4;
+    -o-tab-size: 4;
+    tab-size: 4;
+}
+  
+html {
+    line-height: 1.15; /* 1 */
+    -webkit-text-size-adjust: 100%; /* 2 */
+}  
+
+body {
+    font-family: "Big Calson";
+    margin: 0;
+}
+
+.hero-page {
+    position:absolute;
+    left:50%;
+    top:50%;
+    transform:translate(-50%, -50%);
+    flex-direction: column;
+    font-size: 7rem;
+    font-weight: 500;
+    
+}
+
+.logo-text {
+    font-size: 5rem;
+    font-weight: 500;
+}
+
+.magBanners {
+    display: flex;
+}
+
+.magBanners img {
+    height: 450px;
+    padding-right: 5px;
+    padding-bottom: 40px;
+}
+
+.passBox {
+    flex-direction: column;
+    font-size: 15px;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.passbox input {
+    width: 500px;
+    border: none;
+    border-bottom: 0.6px solid black;    
+    outline: none;
+}
+
+#password-confirm {
+    background: none;
+    border: none;
+    padding: 0; 
+    margin: 0; 
+    font-size: inherit; 
+    font-family: inherit;
+}
+
+/* Nav Bar */
+
+.header {
+    background-color: black;
+}
+
+.header-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    margin: 0 50px;
+}
+
+.logo-image {
+    width: 150px;
+    height: 50%;
+}
+
+.header-menu div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.menu-item{
+    padding: 20px 30px;
+    text-decoration: none;
+    color: inherit;
+}
+
+.socials {
+    display: flex;
+    width: 150px;
+}
+
+.icons {
+    width: 20px;
+    fill: #ffffff;
+    padding: 20px 10px;
+}
+
+/* ABOUT */
+
+.hero {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;    
+    justify-content: center;
+}
+
+.paraTitle {
+    font-size: 4rem;
+    font-weight: 500;
+}
+
+.paraText {
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    margin-bottom: 30px;
+    width:850px;
+    line-height: 30px;
+}
+
+.paraText-half {
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    margin-bottom: 60px;
+    width:400px;
+    padding-right: 50px;
+    line-height: 30px;
+}
+
+.paraText-half2 {
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    margin-bottom: 30px;
+    width:400px;
+    padding-left: 50px;
+    line-height: 30px;
+}
+
+.paragraph-half p {
+    margin: 0;
+}
+
+.imageGallery {
+    width: 850px;
+}
+
+.imageGallery-half {
+    width: 400px;
+}
+
+.paragraph-half {
+    display: flex;
+}
+
+/* FOOTER */
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    width: 100%;
+    bottom: 0;
+}
+
+.footerLogo {
+    padding: 15px 0 15px 0;
+    width: 120px;
+}
+
+
+@media screen and (max-width: 1024px) {
+.header-menu {
+margin: 0 20px;
+}
+.logo-image {
+width: 100px;
+}
+.menu-item {
+padding: 10px 15px;
+}
+}
+
+@media screen and (max-width: 768px) {
+.hero-page {
+font-size: 5rem;
+}
+.logo-text {
+font-size: 3.5rem;
+}
+.magBanners img {
+height: 250px;
+}
+.passBox {
+font-size: 13px;
+}
+.passbox input {
+width: 300px;
+}
+.error-message {
+font-size: 12px;
+}
+.paraTitle {
+font-size: 2.5rem;
+}
+.paraText {
+width: 500px;
+}
+.imageGallery {
+width: 500px;
+}
+.imageGallery-half {
+width: 250px;
+margin-right: 20px;
+}
+.paragraph-half2 {
+padding-left: 20px;
+}
+}
+
+@media screen and (max-width: 576px) {
+.hero-page {
+font-size: 4rem;
+}
+.logo-text {
+font-size: 3rem;
+}
+.magBanners img {
+height: 200px;
+}
+.passBox {
+font-size: 12px;
+}
+.passbox input {
+width: 250px;
+}
+.error-message {
+font-size: 10px;
+}
+.paraTitle {
+font-size: 2rem;
+}
+.paraText {
+width: 300px;
+font-size: 14px;
+}
+.imageGallery {
+width: 300px;
+}
+.imageGallery-half {
+width: 150px;
+margin-right: 10px;
+}
+.paragraph-half2 {
+padding-left: 10px;
+}
+}
+
+/* FOOTER */
+
+.footer {
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: black;
+width: 100%;
+bottom: 0;
+}
+
+.footerLogo {
+padding: 15px 0 15px 0;
+width: 120px;
+}
+
+@media screen and (max-width: 768px) {
+.footerLogo {
+width: 80px;
+}
+}
+
+@media screen and (max-width: 576px) {
+.footerLogo {
+width: 60px;
+}
+}
