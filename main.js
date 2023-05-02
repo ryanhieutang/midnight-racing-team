@@ -6,7 +6,7 @@ window.onload = function() {
   submitBtn.addEventListener("click", function(event) {
     event.preventDefault();
 
-    if (passwordInput.value === "hello") {
+    if (passwordInput.value === "Blackbird") {
       window.location.href = "about.html";
     } else {
       passwordError.textContent = 'Incorrect password';
